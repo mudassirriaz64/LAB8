@@ -1,0 +1,35 @@
+Student Support Office Case Study - Manual
+
+1. Files Used
+- caseStudy.py
+- students.csv
+- report.txt (generated after running script)
+
+2. How to Run
+Command:
+c:/python314/python.exe caseStudy.py
+
+3. Terminal Output (Proof)
+=== Student Data Check ===
+Total students processed: 6
+
+Students with marks less than 12:
+- Bilal Ahmed (mark: 9)
+- Sara Noor (mark: 11)
+- Mina Ali (mark: 7)
+
+Students with invalid email format:
+- Sara Noor (email: sara.noor@uni)
+- Mina Ali (email: mina ali@uni.edu)
+
+Report generated: report.txt
+
+4. Screenshots to Include
+- Screenshot 1: Terminal showing the command and output.
+- Screenshot 2: report.txt file opened in editor.
+
+5. What the Program Checks
+- Identifies students with marks < 12.
+- Validates email addresses using regex:
+  ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$
+- Generates report.txt with the final results.

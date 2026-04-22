@@ -1,0 +1,12 @@
+Student Support Office - Data Validation Report
+================================================
+Total students processed: 6
+
+Students with marks less than 12:
+- Bilal Ahmed (mark: 9)
+- Sara Noor (mark: 11)
+- Mina Ali (mark: 7)
+
+Students with invalid email format:
+- Sara Noor (email: sara.noor@uni)
+- Mina Ali (email: mina ali@uni.edu)
